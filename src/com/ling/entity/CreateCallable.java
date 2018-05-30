@@ -1,5 +1,7 @@
 package com.ling.entity;
 
+import com.ling.common.AddUtils;
+
 import java.util.concurrent.Callable;
 
 /**
@@ -10,6 +12,7 @@ import java.util.concurrent.Callable;
 public class CreateCallable implements Callable<String> {
     @Override
     public String call() throws Exception {
+        AddUtils.getResult();
         return "callable";
     }
 }

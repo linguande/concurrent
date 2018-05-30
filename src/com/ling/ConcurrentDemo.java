@@ -15,12 +15,10 @@ public class ConcurrentDemo {
     public static void main(String[] args) {
         //继承Thread
         CreateThread createThread = new CreateThread();
-        createThread.setName("thread");
         createThread.start();
 
         //实现runnable接口
         Thread thread = new Thread(new CreateRunnable());
-        thread.setName("runnable");
         thread.start();
 
         //实现callable接口

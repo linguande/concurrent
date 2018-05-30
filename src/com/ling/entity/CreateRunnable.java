@@ -1,5 +1,7 @@
 package com.ling.entity;
 
+import com.ling.common.AddUtils;
+
 /**
  * @description: create runnable
  * @author: linguande
@@ -8,6 +10,7 @@ package com.ling.entity;
 public class CreateRunnable implements Runnable {
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName());
+        AddUtils.getResult();
+        System.out.println("runnable");
     }
 }
