@@ -3,7 +3,7 @@ package com.ling;
 import com.ling.entity.RunnableDemo;
 
 /**
- * @description: demo
+ * @description: 通过实现runnable接口创建线程
  * @author: linguande
  * @create: 2018-05-31 15:46
  **/
