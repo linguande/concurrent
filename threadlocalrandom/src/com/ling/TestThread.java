@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * @description: 线程随机数
  * @author: linguande
- * @create: 2018-06-05 17:21
+ * @create: 2018-06-05 17:22
  **/
 public class TestThread {
     public static void main(final String[] arguments) {
