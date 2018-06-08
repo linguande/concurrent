@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * @description: lock的使用
  * @author: linguande
- * @create: 2018-06-07 18:00
+ * @create: 2018-06-07 18:01
  **/
 public class PrintDemo {
     private final Lock lock = new ReentrantLock();
