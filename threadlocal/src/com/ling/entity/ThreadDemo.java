@@ -30,7 +30,7 @@ public class ThreadDemo extends Thread {
 
         //清除threadLocal值
         CountUtils.remove();
-        System.out.println(threadName + " threadLocal after remove : "+CountUtils.get());
+        System.out.println(threadName + " threadLocal after remove : " + CountUtils.get());
 
         //重新赋值，测试下一线程能否拿到threadLocal的值
         CountUtils.set();
